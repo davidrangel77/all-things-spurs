@@ -277,7 +277,6 @@ i {
 }
 .submitPost {
   background-color: #008080;
-;
   border: solid 1px grey;
   border-radius: 4px;
   font-size: 16px;
@@ -346,14 +345,15 @@ i {
 .modalPosition {
   display: inline-block;
   background-color: white;
-  position: absolute;
+  position: fixed;
+  overflow: scroll;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
   max-height: 100%;
-  vertical-align: top;
+  width: 100%;
 }
+
 .modalBackground {
   background-color: white;
   text-align: center;
